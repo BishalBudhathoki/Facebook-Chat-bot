@@ -111,6 +111,6 @@ class Main_Client(Client):
 
 email = input('Enter Your email or username:')
 passs = getpass('Enter Your Password:')
-client = Main_Client('bishal_dragon76@yahoo.com', 'bishal1xiomi', logging_level=logging.DEBUG)
+client = Main_Client(email, passs, logging_level=logging.DEBUG)
 client.listen()
 
